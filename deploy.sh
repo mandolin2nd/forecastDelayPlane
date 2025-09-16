@@ -9,7 +9,7 @@ APP_NAME="appservice-mandolin-flight-delay"
 ZIP_FILE="deploy.zip"
 
 # 압축할 파일 및 폴더 목록
-SOURCE_FILES_AND_DIRS="./fonts ./model ./predict_all.py ./requirements.txt"
+SOURCE_FILES_AND_DIRS="./fonts ./model ./predict_all.py ./requirements.txt ./.env"
 
 echo "배포 스크립트를 시작합니다."
 

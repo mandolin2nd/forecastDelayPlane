@@ -11,7 +11,7 @@
 + 2024년 한해의 항공기 이륙 정보 수집 
   + 데이타 출처 (에어포탈 : https://www.airportal.go.kr/airport/aircraftInfo.do)
 + 2024년 공항 날씨 정보 수집
-  + 데이타 출처 (기상철 깅상정보개발포털 : https://data.kma.go.kr/data/air/selectAmosRltmList.do?pgmNo=575)
+  + 데이타 출처 (기상청 기상정보개발포털 : https://data.kma.go.kr/data/air/selectAmosRltmList.do?pgmNo=575)
 + 해당 데이타를 가지고 날씨와 이륙에 대한 상관 관계 분석하여 모델링 구축
 + 모델링 데이타를 가지고 산출한 데이타는 출발,지연,취소 가능성이 확률로 나오므로, 이를 경량화된 LLM을 통하여 친숙한 문장으로 표현
 

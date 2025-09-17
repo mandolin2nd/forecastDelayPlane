@@ -16,8 +16,8 @@
 + 모델링 데이타를 가지고 산출한 데이타는 출발,지연,취소 가능성이 확률로 나오므로, 이를 경량화된 LLM을 통하여 친숙한 문장으로 표현
 
 ## 구현 방법
-+ 최초에는 LLM으로 분석 모델링을 구축하려했으나, 친절한 GPT(Thinking)와 Gemini(Deep Research)가 직접하는 것을 극구 사양하면서 Deep-Learning알고리즘 사용을 추천함(예측정확도, 비용의 문제)
-+ 데이타 모델링 구축에는 Deep-Learning (Random Forest)를 사용
++ 최초에는 LLM으로 분석 모델링을 구축하려했으나, 친절한 GPT(Thinking)와 Gemini(Deep Research)가 직접하는 것을 극구 사양하면서 Machine-Learning알고리즘 사용을 추천함(예측정확도, 비용의 문제)
++ 데이타 모델링 구축에는 Machine-Learning (Random Forest)를 사용
 + 이 모델링을 사용한 결과의 _친숙한_ 표현에는 ChatGPT4-o mini를 사용
 
 ## 상세 구현 및 문제 해소
